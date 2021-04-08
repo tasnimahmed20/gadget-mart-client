@@ -1,0 +1,101 @@
+.g-signIn{
+    width: 280px;
+    margin: 0 auto 10px;
+    color: #000;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.card{
+    padding: 20px 25px;
+}
+
+.span{
+    color: #f50057;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.g-signIn img{
+    width: 30px!important;
+    float: left;
+}
+.colStyle{
+    padding: 200px 0px;
+}
+.formStyle{
+    padding: 50px 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.formStyle h2{
+   margin-bottom: 5px;
+}
+.form_control{
+  border: none;
+  border-bottom: 1px solid gray!important;
+  border-radius: 0px!important;
+  padding: 30px 0px;
+}
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.submitBtn{
+    width: 100%;
+    background-color: #f50057;
+    padding: 12px 15px;
+    font-size: 18px;
+    border-radius: 0;
+    border: none;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+}
+.submitBtn:hover{
+    background-color: #3f51b5;
+    color: #fff;
+    
+}
+.newAccount{
+    background-color: #fff;
+    color: #f50057;
+    border: none;
+}
+.newUserText{
+ margin-top: 20px;
+ margin-bottom:12px;
+ text-align: center!important;
+ font-size: 18px;
+}
+.d_flex{
+    display: flex;
+    justify-content:space-between;
+}
+
+@media (min-width: 320px) and (max-width:991.98px){
+    .formStyle {
+        padding: 20px 20px!important;
+    }
+    .d_flex {
+        display: block;
+    }
+    .newUserText {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .g-signIn {
+        width: 100%;
+       
+    }
+    .submitBtn {
+        padding: 10px 12px;
+    }
+    .formStyle h2 {
+        font-size: 22px;
+    }
+}
